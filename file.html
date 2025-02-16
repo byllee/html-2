@@ -4,10 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Akademik ITERA</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 10;
+            text-align: left;
+        }
+        header {
+            background: #063e75;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #004080;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #004080;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>   
 </head>
 <body>
-    <h1>hello world</h1>
-    <p>asal
-    </p>
+    <header>
+        <img src="logo.png" alt="Logo ITERA" width="100">
+        <!-- Tambahkan logo -->
+         <h1>Institut Teknologi Sumatera</h1>
+    </header>
+    <nav>
+        <a href="https://www.itera.ac.id/">Beranda</a>
+        <a href="https://www.itera.ac.id/">Berita</a>
+        <a href="https://www.itera.ac.id/">Kontak</a> 
+    </nav>
+    <main>
+        <section>
+            <h2>Selamat Datang di Website ITERA</h2>
+            <p>Website ini memberikan informasi terkait ITERA.</p>
+            <p>Smart, Friendly, and Forest Campus</p>
+        </section>
+        <section id="berita">
+            <h2>Berita</h2>
+            <article>
+                <h3>Teknik Informatika Menjadi Program Studi Unggulan di ITERA</h3>
+                <p>Program Studi Teknik Informatika ITERA menjadi unggulan berkat kurikulum berbasis industri, tenaga pengajar kompeten, dan fasilitas modern.</p>
+            </article>
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Judul</th>
+                    <th>Tanggal</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Teknik Informatika</td>
+                    <td>15 Februari 2025</td>
+                </tr>
+            </table>
+        </section>  
+    </main>
+    <footer>
+        <p>Informatika Itera &copy; 2025</p>
+    </footer>
 </body>
 </html>
